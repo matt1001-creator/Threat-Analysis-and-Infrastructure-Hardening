@@ -9,4 +9,7 @@ SIEM monitoring and automated threat mitigation lab.
 For a deep dive into the methodology and 137k+ security events analyzed, please view the reports below:
 
 * [📄 View: Threat Assessment & Remediation Report (PDF)](threat-report.pdf)
-* [📊 View: Wazuh SIEM Dashboard Visualizations (PDF)](visualizations.pdf)
+### **Technical Evidence & Dashboards**
+To see the live environment used for this investigation, please view the compiled dashboard screenshots:
+
+* [📊 View: Wazuh SIEM Visualizations (PDF)](dashboard-evidence.pdf)
