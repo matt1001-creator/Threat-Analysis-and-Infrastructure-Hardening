@@ -5,26 +5,27 @@ For a deep dive into the methodology and findings of these projects, please view
 # Cybersecurity Research & Threat Investigation Portfolio
 
 ## 🛡️ Enterprise SIEM: Wazuh Threat Analysis
-This project focuses on real-time threat detection and automated response within a Wazuh SIEM environment.
+This project documents my work as a Threat Research Intern, focusing on real-time monitoring, pattern recognition, and automated mitigation within a Wazuh SIEM environment.
 
-* [📄 Full Threat Research Report (PDF)](threat-report.pdf)
-    * A comprehensive 30-day investigation into automated brute-force campaigns and unauthorized access attempts.
-* [📊 SIEM Dashboard Visualizations (PDF)](dashboard-evidence.pdf)
-    * Visual evidence of 137,352 security events, including geographic threat mapping and Rule Level 10+ alert spikes.
+### **Technical Reports & Evidence**
+* [📄 View: Security Threat Research Report (PDF)](threat-report.pdf)
+* [📊 View: SIEM Dashboard Visualizations (PDF)](visualizations.pdf)
 
-**Key Findings:**
-* Identified a high-volume attack origin from a Romanian IP (2.57.122.177) responsible for over 7% of total malicious traffic.
-* Documented a 7.036% error code spike from UK-based infrastructure, indicating targeted web-server probing.
+**Project Impact:**
+* **Data Volume:** Monitored and analyzed **137,352 high-severity alerts** over a 30-day period.
+* **Threat Identification:** Isolated a high-volume brute-force campaign originating from a **Romanian IP (2.57.122.177)**, which accounted for over 7% of total malicious hits.
+* **Pattern Recognition:** Documented a 7.036% error spike from UK-based infrastructure (195.178.110.28) targeting web-server vulnerabilities.
 
 ---
 
 ## 🏠 Infrastructure Hardening: Home Network Sovereignty
-Implementation of a recursive DNS "black hole" and secure remote access using Raspberry Pi hardware.
+Implementation of a recursive DNS "black hole" and secure remote access using Raspberry Pi hardware to achieve network-wide privacy.
 
-* [📄 Home Network Security Report (PDF)](pi-project.pdf)
-    * Technical documentation on deploying Pi-hole and Unbound to achieve DNS privacy and ad-blocking at the network level.
+### **Technical Reports & Evidence**
+* [📄 View: Home Network Hardening Report (PDF)](pi-project.pdf)
+* [📸 View: Pi-hole & Networking Visual Evidence (PDF)](pi-evidence.pdf)
 
-**Project Highlights:**
-* **DNS Sovereignty:** Configured a local recursive DNS resolver to eliminate reliance on third-party upstream providers.
-* **Telemetry Mitigation:** Successfully blocked 34% of network-wide tracking and advertisement traffic.
-* **Secure Connectivity:** Integrated Tailscale to maintain encrypted DNS protection while on public Wi-Fi or cellular networks.
+**Technical Implementation:**
+* **Ad-Tech Mitigation:** Achieved a **34.2% block rate** of total network traffic, successfully neutralizing tracking telemetry and malicious domains.
+* **DNS Sovereignty:** Deployed **Unbound** as a recursive DNS resolver (localhost#5335) to eliminate reliance on third-party upstream providers.
+* **Encrypted Tunneling:** Integrated **Tailscale** to maintain secure, private DNS resolution for mobile devices while on public or cellular networks.
